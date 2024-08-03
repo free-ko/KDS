@@ -1,4 +1,4 @@
-import { ColorType } from './Color.types';
+import type { ColorType } from './Color.types';
 
 const Color: ColorType = {
   // Gray

@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { Color, Font, Radius } from './token';
+import { Color, Elevation, Font, Radius } from './token';
 
 export const headline3xl = style({
   ...Font.headline3xl,
@@ -20,4 +20,12 @@ export const radius100 = style({
   height: '100px',
   backgroundColor: Color.green30,
   borderRadius: Radius.full,
+});
+
+export const radius100AndElevationXl = style({
+  width: '100px',
+  height: '100px',
+  backgroundColor: Color.orange10,
+  borderRadius: Radius.full,
+  boxShadow: Elevation.xl,
 });

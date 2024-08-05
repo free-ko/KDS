@@ -7,6 +7,7 @@ function App() {
       <h2 className={styles.headline3xl}>KDS Head Line 2</h2>
       <p className={styles.bodyBlue60Text}>KDS Text</p>
       <div className={styles.radius100} />
+      <div className={styles.radius100AndElevationXl} />
     </main>
   );
 }

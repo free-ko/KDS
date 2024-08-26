@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { Color, Elevation, Font, Radius } from './token';
+import { Color, Elevation, Font, Radius } from './tokens';
 
 export const headline3xl = style({
   ...Font.headline3xl,

@@ -1,4 +1,4 @@
-import type { ColorType } from './Color.types';
+import type { ColorType } from './Color.types'
 
 const Color: ColorType = {
   // Gray
@@ -180,6 +180,6 @@ const Color: ColorType = {
   magenta80: '#791A79',
   magenta90: '#561056',
   magenta100: '#340634',
-};
+}
 
-export default Color;
+export default Color

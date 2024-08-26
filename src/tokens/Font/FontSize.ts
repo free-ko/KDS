@@ -1,4 +1,4 @@
-import type { FontSizeKey, FontSizeType } from './FontSize.types';
+import type { FontSizeKey, FontSizeType } from './FontSize.types'
 
 const FontSize: Record<FontSizeKey, FontSizeType> = {
   size12: {
@@ -41,6 +41,6 @@ const FontSize: Record<FontSizeKey, FontSizeType> = {
     fontSize: '64px',
     lineHeight: '70px',
   },
-};
+}
 
-export default FontSize;
+export default FontSize

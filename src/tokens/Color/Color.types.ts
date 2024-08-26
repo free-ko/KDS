@@ -14,7 +14,7 @@ type GrayColor =
   | 'gray70'
   | 'gray80'
   | 'gray90'
-  | 'gray100';
+  | 'gray100'
 
 type BlueColor =
   | 'blue10'
@@ -32,7 +32,7 @@ type BlueColor =
   | 'blue70'
   | 'blue80'
   | 'blue90'
-  | 'blue100';
+  | 'blue100'
 
 type LightBlueColor =
   | 'lightblue10'
@@ -50,7 +50,7 @@ type LightBlueColor =
   | 'lightblue70'
   | 'lightblue80'
   | 'lightblue90'
-  | 'lightblue100';
+  | 'lightblue100'
 
 type RedColor =
   | 'red10'
@@ -68,7 +68,7 @@ type RedColor =
   | 'red70'
   | 'red80'
   | 'red90'
-  | 'red100';
+  | 'red100'
 
 type GreenColor =
   | 'green10'
@@ -86,7 +86,7 @@ type GreenColor =
   | 'green70'
   | 'green80'
   | 'green90'
-  | 'green100';
+  | 'green100'
 
 type OrangeColor =
   | 'orange10'
@@ -104,7 +104,7 @@ type OrangeColor =
   | 'orange70'
   | 'orange80'
   | 'orange90'
-  | 'orange100';
+  | 'orange100'
 
 type YellowColor =
   | 'yellow10'
@@ -122,7 +122,7 @@ type YellowColor =
   | 'yellow70'
   | 'yellow80'
   | 'yellow90'
-  | 'yellow100';
+  | 'yellow100'
 
 type TealColor =
   | 'teal10'
@@ -140,7 +140,7 @@ type TealColor =
   | 'teal70'
   | 'teal80'
   | 'teal90'
-  | 'teal100';
+  | 'teal100'
 
 type PurpleColor =
   | 'purple10'
@@ -158,7 +158,7 @@ type PurpleColor =
   | 'purple70'
   | 'purple80'
   | 'purple90'
-  | 'purple100';
+  | 'purple100'
 
 type MagentaColor =
   | 'magenta10'
@@ -176,7 +176,7 @@ type MagentaColor =
   | 'magenta70'
   | 'magenta80'
   | 'magenta90'
-  | 'magenta100';
+  | 'magenta100'
 
 export type ColorKey =
   | GrayColor
@@ -188,6 +188,6 @@ export type ColorKey =
   | YellowColor
   | TealColor
   | PurpleColor
-  | MagentaColor;
+  | MagentaColor
 
-export type ColorType = Record<ColorKey, string>;
+export type ColorType = Record<ColorKey, string>

@@ -12,16 +12,20 @@ type BackgroundColor =
   | 'colorBgFillHover'
   | 'colorBgFillDisabled'
   | 'colorBgFillSecondary'
+  | 'colorBgFillSecondaryDisabled'
   | 'colorBgFillSecondaryHover'
+  | 'colorBgFillSecondaryInverse'
   | 'colorBgFillTertiary'
   | 'colorBgFillTertiaryHover'
   | 'colorBgFillSuccess'
   | 'colorBgFillWarning'
-  | 'colorBgFillError';
+  | 'colorBgFillError'
 
 type TextColor =
   | 'colorText'
   | 'colorTextSecondary'
+  | 'colorTextTertiary'
+  | 'colorTextQuaternary'
   | 'colorTextDisabled'
   | 'colorTextInverse'
   | 'colorTextOnBgHover'
@@ -32,7 +36,7 @@ type TextColor =
   | 'colorTextEmphasis'
   | 'colorTextLink'
   | 'colorTextLinkHover'
-  | 'colorTextLinkInverse';
+  | 'colorTextLinkInverse'
 
 type IconColor =
   | 'colorIcon'
@@ -44,7 +48,7 @@ type IconColor =
   | 'colorIconSuccess'
   | 'colorIconWarning'
   | 'colorIconError'
-  | 'colorIconInverse';
+  | 'colorIconInverse'
 
 type BorderColor =
   | 'colorBorder'
@@ -56,15 +60,10 @@ type BorderColor =
   | 'colorBorderSuccess'
   | 'colorBorderWarning'
   | 'colorBorderError'
-  | 'colorBorderFocus';
+  | 'colorBorderFocus'
 
-type MaterialColor = 'colorMaterialDimmer';
+type MaterialColor = 'colorMaterialDimmer'
 
-export type SemanticColorKey =
-  | BackgroundColor
-  | TextColor
-  | IconColor
-  | BorderColor
-  | MaterialColor;
+export type SemanticColorKey = BackgroundColor | TextColor | IconColor | BorderColor | MaterialColor
 
-export type SemanticColorType = Record<SemanticColorKey, string>;
+export type SemanticColorType = Record<SemanticColorKey, string>

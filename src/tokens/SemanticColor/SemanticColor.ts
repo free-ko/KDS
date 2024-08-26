@@ -1,5 +1,5 @@
-import Color from '../Color';
-import { SemanticColorType } from './SemanticColor.types';
+import Color from '../Color'
+import { SemanticColorType } from './SemanticColor.types'
 
 const SemanticColor: SemanticColorType = {
   // Background Color
@@ -16,7 +16,9 @@ const SemanticColor: SemanticColorType = {
   colorBgFillHover: Color.yellow40,
   colorBgFillDisabled: Color.gray60,
   colorBgFillSecondary: Color.gray10,
+  colorBgFillSecondaryDisabled: Color.gray50,
   colorBgFillSecondaryHover: Color.gray20,
+  colorBgFillSecondaryInverse: Color.gray100,
   colorBgFillTertiary: Color.gray35,
   colorBgFillTertiaryHover: Color.gray40,
   colorBgFillSuccess: Color.green50,
@@ -26,13 +28,15 @@ const SemanticColor: SemanticColorType = {
   // Text Color
   colorText: Color.gray100,
   colorTextSecondary: Color.gray70,
-  colorTextDisabled: Color.gray60,
+  colorTextTertiary: Color.gray65,
+  colorTextQuaternary: Color.gray60,
+  colorTextDisabled: Color.gray50,
   colorTextInverse: Color.gray10,
   colorTextOnBgHover: Color.gray45,
   colorTextInfo: Color.lightblue80,
   colorTextSuccess: Color.green60,
   colorTextWarning: Color.orange60,
-  colorTextError: Color.red65,
+  colorTextError: Color.red60,
   colorTextEmphasis: Color.blue70,
   colorTextLink: Color.blue70,
   colorTextLinkHover: Color.blue80,
@@ -59,11 +63,11 @@ const SemanticColor: SemanticColorType = {
   colorBorderInfo: Color.lightblue45,
   colorBorderSuccess: Color.green30,
   colorBorderWarning: Color.orange45,
-  colorBorderError: Color.red45,
+  colorBorderError: Color.red60,
   colorBorderFocus: Color.gray100,
 
   // Material Color
   colorMaterialDimmer: 'rgba(26, 26, 26, 0.52)',
-};
+}
 
-export default SemanticColor;
+export default SemanticColor

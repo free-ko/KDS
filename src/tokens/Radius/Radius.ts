@@ -1,4 +1,4 @@
-import type { RadiusType } from './Radius.types';
+import { RadiusType } from './Radius.types'
 
 const Radius: RadiusType = {
   none: '0px',
@@ -11,6 +11,6 @@ const Radius: RadiusType = {
   '2xl': '20px',
   '3xl': '24px',
   full: '9999px',
-};
+}
 
-export default Radius;
+export default Radius

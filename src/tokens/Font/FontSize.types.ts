@@ -8,7 +8,7 @@ type FontSize =
   | '40px'
   | '48px'
   | '54px'
-  | '64px';
+  | '64px'
 
 type LineHeight =
   | '16px'
@@ -20,7 +20,7 @@ type LineHeight =
   | '48px'
   | '54px'
   | '60px'
-  | '70px';
+  | '70px'
 
 export type FontSizeKey =
   | 'size12'
@@ -32,9 +32,9 @@ export type FontSizeKey =
   | 'size40'
   | 'size48'
   | 'size54'
-  | 'size64';
+  | 'size64'
 
 export type FontSizeType = {
-  fontSize: FontSize;
-  lineHeight: LineHeight;
-};
+  fontSize: FontSize
+  lineHeight: LineHeight
+}

@@ -1,6 +1,6 @@
-import type { FontSizeType } from './FontSize.types';
-import type { FontWeightType } from './FontWeight.types';
-import type { LetterSpacingType } from './LetterSpacing.types';
+import type { FontSizeType } from './FontSize.types'
+import type { FontWeightType } from './FontWeight.types'
+import type { LetterSpacingType } from './LatterSpacing.types'
 
 export type FontKey =
   | 'display3xl'
@@ -24,9 +24,9 @@ export type FontKey =
   | 'labelMdBold'
   | 'labelMdRegular'
   | 'labelSmBold'
-  | 'labelSmRegular';
+  | 'labelSmRegular'
 
 export type FontType = FontSizeType & {
-  fontWeight: FontWeightType;
-  letterSpacing: LetterSpacingType;
-};
+  fontWeight: FontWeightType
+  letterSpacing: LetterSpacingType
+}

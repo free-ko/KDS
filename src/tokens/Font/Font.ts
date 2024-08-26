@@ -1,7 +1,7 @@
-import type { FontKey, FontType } from './Font.types';
-import FontSize from './FontSize';
-import FontWeight from './FontWeight';
-import LetterSpacing from './LetterSpacing';
+import type { FontKey, FontType } from './Font.types'
+import FontSize from './FontSize'
+import FontWeight from './FontWeight'
+import LetterSpacing from './LatterSpacing'
 
 const Font: Record<FontKey, FontType> = {
   display3xl: {
@@ -114,6 +114,6 @@ const Font: Record<FontKey, FontType> = {
     fontWeight: FontWeight.regular,
     letterSpacing: LetterSpacing.tight,
   },
-};
+}
 
-export default Font;
+export default Font
